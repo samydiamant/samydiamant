@@ -1,0 +1,14 @@
+program exo; 
+uses crt; 
+var x,y,somme:integer;
+
+begin
+
+write('put an number : ');
+readln (x);
+write('put secend number : ');
+readln(y);
+somme <- x+y;
+writeln('somme of ',x,' + ',y,' = ',somme ); 
+
+end.
